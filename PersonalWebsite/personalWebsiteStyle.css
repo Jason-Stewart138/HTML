@@ -1,0 +1,67 @@
+.imgHeader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.titleHome {
+    text-align: center;
+    color: black;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 0px;
+    border-color: slategray;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+}
+
+.flexbox {
+    display: flex;    
+    flex-flow: wrap;
+    width: 1000px;
+}
+
+.menuBox {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 0px;
+    border-color: slategray;
+    fill: black;
+    padding: 5px;
+    width: 100px;
+}
+
+.homeSubHeader {
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0px;
+    border-color: blue;
+    padding: 15px;
+    margin: 20px;
+    width: 500px;
+}
+
+.alignCenter {
+    margin: auto;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.pGen, p {
+    color: blue;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pText {
+    width: 500px;
+}
